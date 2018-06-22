@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna exec --parallel -- yarn build",
+    "test": "lerna exec --parallel -- yarn test"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}

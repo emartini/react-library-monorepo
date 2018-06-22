@@ -1,0 +1,41 @@
+{
+  "name": "@comparaonline/ui-config",
+  "version": "0.0.1",
+  "description": "Comparaonline configurations and tools to develop UI components",
+  "author": "Esteban Martini <emartini@comparaonline.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "jest",
+    "babel",
+    "rollup",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "exit 0",
+    "test": "exit 0",
+    "lint": "exit 0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "@babel/preset-typescript": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.0.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "regenerator-runtime": "^0.11.1",
+    "rollup-plugin-auto-external": "^1.2.0",
+    "rollup-plugin-babel": "4.0.0-beta.5",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-terser": "^1.0.1",
+    "rollup-plugin-uglify": "^4.0.0"
+  },
+  "devDependencies": {
+    "tslint-react": "^3.6.0"
+  }
+}

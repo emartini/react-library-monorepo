@@ -1,0 +1,32 @@
+{
+  "name": "ui-react-ts-component",
+  "version": "1.0.0",
+  "main": "dist/ui-react-ts-component.js",
+  "module": "dist/ui-react-ts-component.es.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "~16.3.1"
+  },
+  "devDependencies": {
+    "@comparaonline/ui-config": "^0.0.1",
+    "@types/enzyme": "^3.1.10",
+    "@types/jest": "^23.1.1",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "enzyme": "^3.3.0",
+    "jest": "^23.1.0",
+    "react": "~16.3.1",
+    "react-dom": "^16.4.1",
+    "rollup": "^0.61.1",
+    "ts-jest": "^22.4.6",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc --emitDeclarationOnly --outDir ./dist && rollup -c",
+    "type-check": "tsc --noEmit",
+    "test": "jest --colors",
+    "lint": "tslint 'src/**/*.{ts,tsx}'"
+  }
+}

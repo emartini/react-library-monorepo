@@ -1,0 +1,24 @@
+{
+  "name": "ui-react-component",
+  "version": "0.0.0",
+  "main": "dist/ui-react-component.js",
+  "module": "dist/ui-react-component.es.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "~16.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@comparaonline/ui-config": "^0.0.1",
+    "enzyme": "^3.3.0",
+    "jest": "^23.1.0",
+    "react": "~16.3.1",
+    "react-dom": "^16.4.1",
+    "rollup": "^0.61.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --colors",
+    "lint": "exit 0"
+  }
+}
